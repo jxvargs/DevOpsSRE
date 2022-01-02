@@ -174,8 +174,8 @@ no saturar un solo servidor.
 
 ### Orquestador
 
-- **Kubernetes** corre contenedores [_Docker_](https://www.docker.com) y _Docker_
-necesita de **Kubernetes** para correr en producción.
+- **Kubernetes** corre contenedores [Docker](https://www.docker.com) y _Docker_
+necesita de [Kubernetes](https://kubernetes.io) para correr en producción.
 - Sí se cae un contenedor, se puede armar otro rapidamente.
 
 ### Serverless
@@ -270,10 +270,10 @@ filtrar [DDoS](https://en.wikipedia.org/wiki/Denial-of-service_attack)
 
 ### Crear un _monolito_
 
-- Se puede utilizar cache (sesiones - autenticaciones) _[CDN]_(https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
+- Se puede utilizar cache (sesiones - autenticaciones) [CDN](https://www.cloudflare.com/learning/cdn/what-is-a-cdn/)
 contenedores - orquestadores.
 - Separar en funciones.
 - Usar funciones _serverless_ para tareas asincronas.
-- Todo en contenedores _[Docker]_(https://www.docker.com) y un orquestaador
-_[K8s]_(https://kubernetes.io)
+- Todo en contenedores [Docker](https://www.docker.com) y un orquestaador
+[K8s](https://kubernetes.io)
 - Metricas: _RAM_ _CPU_ _colas de mensaje_
