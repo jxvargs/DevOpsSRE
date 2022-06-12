@@ -166,7 +166,7 @@ no saturar un solo servidor.
 - Los log files no se usan para guardar los tokens ó credenciales.
 - Usuarios - Contraseñas - Tokens
     - Sistema externo.
-    - Redis y Mencach son sistemas más rapidos.
+    - Redis y Memcached son sistemas más rapidos.
     - Tomar encuenta que el backend debe ser de forma segura
     para contraseñas de Bases de Datos.
 
@@ -205,7 +205,7 @@ BD que realizar escrituras. - replicas de lectura.
 
 - Cache.
     - Redis
-    - Mencach
+    - Memcached
     - CDNs
     - Autenticación y sesiones.
 
