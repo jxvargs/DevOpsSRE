@@ -205,7 +205,7 @@ BD que realizar escrituras. - replicas de lectura.
 
 - Cache.
     - Redis
-    - Mencach
+    - Memecached
     - CDNs
     - Autenticación y sesiones.
 
